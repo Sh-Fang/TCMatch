@@ -85,3 +85,9 @@ cd ~/Downloads/TC-Match/test
 
 bash tcm.sh
 ```
+
+
+
+## Datasets and Querysets
+
+The stream graph datasets and their corresponding querysets used in our paper can be downloaded [here](https://drive.google.com/drive/folders/1h7SrPfxYlk8z1A8CnFGk5WqpZEHsA29R?usp=sharing).
