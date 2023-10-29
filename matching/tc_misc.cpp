@@ -183,4 +183,11 @@ size_t Misc::get_current_RSS() {
     return getCurrentRSS();
 }
 
+long Misc::getMemoryUse() {
+    int who = RUSAGE_SELF;
+    struct rusage usage{};
+    getrusage(who, &usage);
+    return usage.ru_maxrss;
+}
+
 

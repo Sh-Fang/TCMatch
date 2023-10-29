@@ -10,6 +10,7 @@ public:
 
     std::stringstream statistical_info;
 
+    long getMemoryUse();
 
     size_t get_current_RSS();
 

@@ -163,6 +163,7 @@ int main(int argc, char * argv[]){
         tc_misc->statistical_info << "search check time: " << tc_search->check_time_span.count() << " ms / "<< std::endl;
         tc_misc->statistical_info << "search enum time: " << tc_search->enum_time_span.count() << " ms / "<< std::endl;
     }
+    tc_misc->statistical_info << "getMemoryUse: " << (tc_misc->getMemoryUse() / 1024)     << " MB / " << tc_misc->getMemoryUse() << " KB / " << std::endl;
     tc_misc->statistical_info << "index memory: " << (tc_global_index->index_RSS_size_span / 1024) / 1024    << " MB / " << (tc_global_index->index_RSS_size_span / 1024) << " KB / " << (tc_global_index->index_RSS_size_span ) << " B / "<< std::endl;
     tc_misc->statistical_info << "online memory: " << (tc_global_index->online_RSS_size_span / 1024) / 1024    << " MB / "<< std::endl;
     tc_misc->statistical_info << "data percent: "  << tc_arg->data_percent << " / "<< std::endl;
