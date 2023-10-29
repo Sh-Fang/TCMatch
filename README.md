@@ -27,6 +27,8 @@ After a successful compilation, the binary file (`tcm`) is created under the `TC
 ./tcm -s <stream-data-path> -q <time-constraint-query-path>
 ```
 
+> By execute```./tcm -h``` for help
+
 ### Optional parameters
 
 | Parameters. | Explanation                                               | Default Value |
